@@ -1,4 +1,4 @@
-# ICM_20948 v2.0 [![](https://img.shields.io/badge/ROS2-humble-important?style=flat-square&logo=ros)](https://github.com/Alpaca-zip/icm_20948/tree/humble-devel) [![](https://img.shields.io/badge/ROS-noetic-blue?style=flat-square&logo=ros)](https://github.com/Alpaca-zip/icm_20948/tree/noetic-devel)
+# ICM_20948 v2.0 [![ROS-noetic Build Check](https://github.com/Alpaca-zip/icm_20948/actions/workflows/ros1-build-check-bot.yml/badge.svg?event=pull_request)](https://github.com/Alpaca-zip/icm_20948/actions/workflows/ros1-build-check-bot.yml)
 
 ROS package for the ICM-20948 with Seeeduino XIAO.  
 Older version: [old-devel](https://github.com/Alpaca-zip/icm_20948/tree/old-devel)
@@ -38,7 +38,7 @@ Click `Tools -> Board -> Boards Manager`..., print keyword "Seeeduino XIAO" in t
 ### 2.4 Select your board and port
 Click `Tools -> Board`, find "Seeeduino XIAO M0" and select it. Now you have already set up the board of Seeeduino XIAO for Arduino IDE. Then, Select the serial device of the Arduino board from `Tools -> Port` menu. This is likely to be COM3 or higher.
 
-### 2.5 Download the Arduino library for ICM-20948 and ROS
+### 2.5 Download the Arduino library for ICM-20948
 Click `Sketch -> Include Library -> Manage Libraries`..., print keyword " ICM 20948" in the searching blank. Here comes the "SparkFun 9DoF IMU Breakout - ICM-20948". Install it.
 
 > ***Important note:**  
